@@ -1,0 +1,25 @@
+Source: ruby-minitest-utils
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               rake,
+               ruby-minitest
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-minitest-utils.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-minitest-utils.git
+Homepage: http://github.com/fnando/minitest-utils
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-minitest-utils
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-minitest,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Some utilities for your Minitest day-to-day usage.
+ Some utilities for your Minitest day-to-day usage.
