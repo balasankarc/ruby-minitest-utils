@@ -1,6 +1,8 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: minitest-utils
 Source: http://github.com/fnando/minitest-utils
+ Repackaged the source to remove the unwanted bin directory and screenshots
+ directory
 
 Files: *
 Copyright: 2015 Nando Vieira <fnando.vieira@gmail.com>
