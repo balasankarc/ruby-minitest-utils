@@ -21,5 +21,10 @@ Depends: ruby | ruby-interpreter,
          ruby-minitest,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Some utilities for your Minitest day-to-day usage.
- Some utilities for your Minitest day-to-day usage.
+Description: utilities for minitest
+ This gem provides some utilities for Minitest's day-to-day usage. The
+ utilities include
+  * A better reporter
+  * A TestNotifier reporter
+  * Some Rails niceties (set up FactoryGirl, WebMock and Capybara)
+  * Add a t and l methods (i18n)
