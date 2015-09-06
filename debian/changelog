@@ -1,5 +1,5 @@
-ruby-minitest-utils (0.2.4-1) UNRELEASED; urgency=medium
+ruby-minitest-utils (0.2.4+debian-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #798140)
 
  -- Balasankar C <balasankarc@autistici.org>  Sun, 06 Sep 2015 11:02:54 +0530
